@@ -42,41 +42,39 @@ TestResult.xml
 [Rr]eleasePS/
 dlldata.c
 
+# Benchmark Results
+BenchmarkDotNet.Artifacts/
+
 # .NET Core
 project.lock.json
 project.fragment.lock.json
 artifacts/
 **/Properties/launchSettings.json
 
-*.obj
-*.exe
-*.exp
-*.pdb
-*.dll
-*.user
-*.aps
-*.pch
-*.vspscc
 *_i.c
 *_p.c
-*.ncb
-*.suo
-*.tlb
-*.tlh
-*.bak
-*.cache
+*_i.h
 *.ilk
-*.log
-*.zip
-[Dd]ebug*/
-*.lib
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
 *.sbr
-Thumbs.db
-[Ll]ib/
-[Rr]elease*/
-[Tt]est[Rr]esults/
-_UpgradeReport_Files/
-_ReSharper.*/
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
 
 # Chutzpah Test files
 _Chutzpah*
@@ -98,6 +96,9 @@ ipch/
 *.vspx
 *.sap
 
+# Visual Studio Trace Files
+*.e2e
+
 # TFS 2012 Local Workspace
 $tf/
 
@@ -117,6 +118,10 @@ _TeamCity*
 
 # DotCover is a Code Coverage Tool
 *.dotCover
+
+# AxoCover is a Code Coverage Tool
+.axoCover/*
+!.axoCover/settings.json
 
 # Visual Studio code coverage results
 *.coverage
@@ -153,7 +158,7 @@ publish/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
-# TODO: Comment the next line if you want to checkin your web deploy settings
+# Note: Comment the next line if you want to checkin your web deploy settings,
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
 *.publishproj
@@ -188,6 +193,7 @@ AppPackages/
 BundleArtifacts/
 Package.StoreAssociation.xml
 _pkginfo.txt
+*.appx
 
 # Visual Studio cache files
 # files ending in .cache can be ignored
@@ -283,6 +289,9 @@ __pycache__/
 # tools/**
 # !tools/packages.config
 
+# Tabs Studio
+*.tss
+
 # Telerik's JustMock configuration file
 *.jmconfig
 
@@ -291,3 +300,6 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+# OpenCover UI analysis results
+OpenCover/
