@@ -24,7 +24,7 @@
   <li>systeme de task permet agrandir  / fermer / réduire une fenétre</li>
   <li>recherche par nom d'un <strong>DFD</strong> qui retourne tous les <strong>DFD</strong> avec leur nom ,type , chemin</li>
   <li>suppresion d'un <strong>DFD</strong></li> 
-  <li>propriétés géénral qui retourn nombre élements ... </li>
+  <li>propriétés génrale qui retourne le nombre élements ... </li>
   ....
  </ul>
  <hr/>
