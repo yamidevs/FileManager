@@ -69,6 +69,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Class1.cs" />
     <Compile Include="Graphics\Engine\DesktopEngine.cs" />
     <Compile Include="Graphics\Engine\Middle\AbsorbenceEngine.cs" />
     <Compile Include="Graphics\Engine\Middle\ListeEngine.cs" />
